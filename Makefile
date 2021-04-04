@@ -13,9 +13,9 @@ backend-seed:
 	./vendor/bin/sail php artisan db:seed
 
 frontend-clean:
-	./vendor/bin/sail bash -c "rm -rf node_modules;\
-		rm package-lock.json;\
-		npm cache clean --force"
+	rm -rf node_modules
+	rm package-lock.json
+	./vendor/bin/sail npm cache clean --force
 
 frontend-install:
 	make frontend-clean
