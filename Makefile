@@ -6,11 +6,11 @@ backend-install:
 
 backend-setup:
 	make backend-install
-	./vendor/bin/sail php artisan key:generate
-	./vendor/bin/sail php artisan migrate
+	./vendor/bin/sail artisan key:generate
+	./vendor/bin/sail artisan migrate
 
 backend-seed:
-	./vendor/bin/sail php artisan db:seed
+	./vendor/bin/sail artisan db:seed
 
 frontend-clean:
 	rm -rf node_modules
