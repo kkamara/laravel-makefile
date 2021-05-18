@@ -1,3 +1,6 @@
+rm:
+	./vendor/bin/sail down -v
+
 docker-setup:
 	./vendor/bin/sail up -d # get services running
 
