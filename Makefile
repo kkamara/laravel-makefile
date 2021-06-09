@@ -29,7 +29,6 @@ frontend-install:
 dev:
 	make docker-setup
 	make backend-setup
-	make backend-seed
 	make frontend-install
 
 watch:
