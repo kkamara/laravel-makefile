@@ -11,6 +11,8 @@ backend-install:
 backend-setup:
 	make backend-install
 	./vendor/bin/sail artisan key:generate
+
+backend-migrate:
 	./vendor/bin/sail artisan migrate
 
 backend-seed:
