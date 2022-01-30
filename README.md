@@ -1,6 +1,6 @@
-# Laravel 8.x Makefile
+# Laravel Makefile
 
-Base make commands for your everyday Laravel 8.x application
+Base commands for your everyday Laravel application.
 
 
 * [docker-setup](#docker-setup)
