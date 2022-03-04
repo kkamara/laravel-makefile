@@ -1,0 +1,14 @@
+{
+    "name": "kkamara/laravel-makefile",
+    "description": "Base commands for your everyday Laravel application.",
+    "version": "0.0.1",
+    "type": "project",
+    "license": "BSD-3",
+    "authors": [
+        {
+            "name": "kkamara",
+            "email": "kelvinkamara@protonmail.com"
+        }
+    ],
+    "require": {}
+}
