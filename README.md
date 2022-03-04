@@ -2,14 +2,13 @@
 
 Base commands for your everyday Laravel application.
 
+* [rm](#rm)
 
 * [docker-setup](#docker-setup)
 
 * [backend-install](#backend-install)
 
 * [backend-setup](#backend-setup)
-
-* [backend-seed](#backend-seed)
 
 * [frontend-clean](#frontend-clean)
 
@@ -18,6 +17,10 @@ Base commands for your everyday Laravel application.
 * [dev](#dev)
 
 * [watch](#watch)
+
+
+## rm
+`make rm`
 
 
 ## docker-setup
@@ -30,10 +33,6 @@ Base commands for your everyday Laravel application.
 
 ## backend-setup
 `make backend-setup`
-
-
-## backend-seed
-`make backend-seed`
 
 
 ## frontend-clean
