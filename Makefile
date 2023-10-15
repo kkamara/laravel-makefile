@@ -28,14 +28,13 @@ backend-migrate:
 frontend-clean:
 	rm -rf node_modules 2>/dev/null || true
 	rm package-lock.json 2>/dev/null || true
-	rm yarn.lock 2>/dev/null || true
 	$(sail) yarn cache clean
 
 .PHONY: frontend-install
 frontend-install:
 	make frontend-clean
-	$(sail) yarn install
-	$(sail) npx mix
+	$(sail) npm install
+	$(sail) npm run build
 
 .PHONY: dev
 dev:
