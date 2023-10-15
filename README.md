@@ -1,6 +1,6 @@
 # Laravel Makefile
 
-Base commands for your everyday Laravel application.
+Base commands for your everyday Laravel 10.x application.
 
 * [rm](#rm)
 
